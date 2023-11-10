@@ -1,7 +1,7 @@
 <?php
-include_once("./Car.php");
-echo "LIgma";
+include_once("./Cat.php");
 
-$myCar = new Car("Dacia");
+$cat1 = new Cat("Mincis");
+$cat2 = new Cat("Brincis");
 
-echo $myCar->brand;
+Cat::meow();
